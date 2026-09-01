@@ -1,0 +1,34 @@
+[
+    {
+        "UserName": "admin-user",
+        "MFAEnabled": false,
+        "LastActivityDays": 5,
+        "Policies": [
+            "AdministratorAccess"
+        ]
+    },
+    {
+        "UserName": "john.smith",
+        "MFAEnabled": true,
+        "LastActivityDays": 10,
+        "Policies": [
+            "ReadOnlyAccess"
+        ]
+    },
+    {
+        "UserName": "old-user",
+        "MFAEnabled": true,
+        "LastActivityDays": 180,
+        "Policies": [
+            "ReadOnlyAccess"
+        ]
+    },
+    {
+        "UserName": "developer-user",
+        "MFAEnabled": false,
+        "LastActivityDays": 15,
+        "Policies": [
+            "AdministratorAccess"
+        ]
+    }
+]
